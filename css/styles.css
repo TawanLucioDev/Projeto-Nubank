@@ -1,0 +1,619 @@
+/*Desenvolvido por Tawan Lúcio...*/
+
+body, h1, h2, h3, p, ul{
+    
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    
+
+
+}
+
+/*Inicio do menu*/
+.logo{
+
+    display: block;
+    float: left;
+    margin-top: 10px;
+
+}
+#menu-principal{
+
+    width: 100%;
+    height: 7px;
+    position: fixed;
+    padding: 20px 0px 50px 50px;
+    background-color: white;
+}
+
+.menu-nubank{
+
+    max-width: 100%;
+    float: left;
+}
+
+.menu-nubank li{
+
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.menu-nubank a{
+
+    display: block;
+    text-decoration: none;
+    margin-left: 33px;
+    color: black;
+    font-size: 18px;
+    font-family: cabin, sans-serif;
+    font-weight: bold;
+}
+
+.login{
+
+    display: inline-block;
+    margin-top: 16px;
+    font-family: cabin, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    color: #820ad1;
+
+}
+
+.login li{
+
+   
+    padding-right: 70px;
+    list-style: none;
+
+}
+
+.login a{
+    text-decoration: none;
+
+}
+/*Seção de Imagens*/
+.imagem-1{
+
+   background: url('../img/img1.png') no-repeat center center;
+   background-size:cover;
+   height: 650px;
+   
+   
+   
+}
+
+.imagem-1 h1{
+
+    padding: 300px 0px 0px 0px;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    font-family: cabin, sans-serif;
+    font-size: 49px;
+    font-weight: lighter;
+}
+
+.imagem-1 h2{
+
+    margin-left: 220px;
+    margin-bottom: 10px;
+    font-family: cabin, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+/*Formulário inicio*/
+.form{
+
+    background-color: white;
+    max-width: 330
+    px;
+    max-height: 300px;
+    text-align: left;
+    color: black;
+    border-radius: 16px;
+    float: right;
+    margin-top: -205px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.form h3{
+
+    color: black;
+    font-family: caban,sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.name{
+
+    color: #585858;
+    font-family: 'cabin' sans-serif;
+    font-weight: lighter;
+}
+
+.bto{
+
+    background-color: #820ad1;
+    font-size: 17px;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'cabin' sans-serif;
+    cursor: pointer;
+    font-weight: lighter;
+
+
+}
+
+.campo{
+
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*Seção-1*/
+.secao-2{
+
+    margin-top: 100px;
+    
+    
+}
+
+.secao-2 h1 a{
+
+    font-size: 45px;
+    color: #820ad1;
+    text-decoration: none;
+    margin-left: 90px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+   
+
+
+}
+
+.secao-2 h3{
+
+    color: black;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 90px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.img-cartao{
+
+    float: right;
+    margin-top: -300px;
+    margin-right: 180px;
+}
+
+.link-2{
+
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #820ad1;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+
+.secao-3{
+
+    margin-top: 100px;
+    margin-top: 300px;
+    background-color: #F5F5F5;
+    padding: 100px;
+}
+
+.secao-3 h1{
+
+    font-size: 45px;
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #820ad1;
+    
+}
+
+.secao-3 h1, a{
+
+    color: #820ad1;
+}
+
+.secao-3 a{
+    text-decoration: none;
+}
+
+.secao-3 h3{
+
+    color: black;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.link-3{
+
+    color: #820ad1;
+    font-size: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90px;
+    
+}
+
+.img-cartao-2{
+
+    float: right;
+    margin-top: -250px;
+    margin-right: 70px;
+    
+}
+
+.tamanho{
+
+    max-width: 350px;
+    max-height: 350px;
+}
+
+
+.secao-4{
+
+    
+    background-color: #f5f5f5;
+    padding: 150px;
+}
+
+.secao-4 h1{
+
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #820ad1;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    
+}
+
+.secao-4 h3{
+
+    color: black;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.secao-4 a{
+
+    text-decoration: none;
+}
+
+.link-4{
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #820ad1;
+    margin-left: 35px;
+}
+
+.img-cartao-3{
+
+    float: right;
+    margin-top: -350px;
+    margin-right: 100px;
+}
+
+.secao-6{
+
+    background-image: url('../img/img5.png');
+    background-position: right;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.secao-6 h1{
+
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 180px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.secao-6 a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 180px;
+}
+
+.secao-7{
+
+    background-image: url('../img/img6.png');
+    background-size: cover;
+    height: 600px;
+
+}
+
+.secao-7 h1{
+
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 180px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.secao-7 a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 180px;
+}
+
+.secao-8{
+
+    background-image: url('../img/img7.png');
+    background-size: cover;
+    height: 600px;
+
+}
+
+.secao-8 h1{
+
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 180px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.secao-8 a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 180px;
+}
+/*Inicio do rodapé*/
+.rodape{
+
+    background-color: #111;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    
+}
+
+.text-1{
+
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.sec-1{
+
+    width: 23%;
+    float: left;
+    font-size: 18px;
+    font-family: 'cabin';
+    font-weight:lighter;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.sec-1 li{
+
+    padding-bottom: 16px;
+    padding-bottom: 16px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.sec-1 li:hover{
+
+    color: #820ad1;
+    
+
+}
+.sec-2{
+
+    width: 23%;
+    float: left;
+    cursor: pointer;
+}
+
+.sec-2 li:hover{
+
+    color: #820ad1;
+    
+
+}
+
+.text-2{
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 23px;
+
+
+}
+
+.sec-2 li{
+
+    padding-bottom: 16px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.sec-1, .sec-2 ul, li, a{
+
+    list-style: none;
+}
+
+.sec-3{
+
+    width: 100%;
+    cursor: pointer;
+  
+
+}
+
+.sec-3 li:hover{
+
+    color: #820ad1;
+    
+
+}
+
+
+.sec-3 h3{
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.sec-3 li{
+
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.sec-4{
+
+    float: right;
+    margin-top: -270px;
+    margin-right: 200px;
+    cursor: pointer;
+
+}
+.sec-4 li:hover{
+
+    color: #820ad1;
+    
+
+}
+
+.sec-4 h3{
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.sec-4 li{
+
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+
+
+.icon{
+    
+    float: right;
+    margin-top: -140px;
+    margin-right: 200px;
+    
+}
+
+.icon h3{
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.nu-rodape{
+
+    background-color: #111;
+    padding: 30px;
+    height: 200px;
+    border: solid 1px #191919 ;
+    
+    
+}
+
+.nu-rodape p{
+    
+    float: right;
+    margin-right: 650px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    
+}   
+/*Termino do rodapé*/
+.idioma{
+    width: 100%;
+    background-color: #111;
+    height: 200px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: right;
+
+}
+/*Edição icones sociais*/
+.fa-brands{
+   
+    float: right;
+    padding: 40px;
+    margin-top: -80px;
+    font-size: 20px;
+}
+.fa-brands li{
+
+    display: inline-block;
+}
+
+.fa-brands:hover{
+
+    color: #820ad1;
+}
+
+/*Desenvolvido por Tawan Lúcio, evite copiar, leia o arquivo para fins educacionais... Att, Tawan*/

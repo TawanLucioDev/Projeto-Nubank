@@ -1,0 +1,564 @@
+
+/*Configuração Mobile 576px*/
+
+@media screen and (max-width: 576px){
+
+    /*Menu principal*/
+    .menu-nubank{
+
+        display: none;
+      
+        
+    }
+    .menu-mobile{
+
+        margin-top: 16px;
+        cursor: pointer;
+
+    }
+
+    .menu-mobile div:hover{
+
+        background-color:rgb(65, 45, 45);
+    }
+    .menu-mobile div{
+        width: 22px;
+        height: 2px;
+        background-color: black;
+        margin: 8px;
+        margin-left: 390px;
+        
+        
+        
+       
+    }
+    .login{
+
+        display: none;
+    }
+    /*Seção Interna*/
+    .imagem-1{
+
+        height: 1000px;
+        width: 100%;
+    }
+    .imagem-1 h1{
+
+        margin-left: 70px;
+        font-size: 35px;
+        white-space: nowrap;
+       
+    }
+    .imagem-1 h2{
+
+        margin-left: 70px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    
+    .form{
+        
+        margin-top: 100px;
+
+        
+    }
+
+    .secao-2{
+
+        width: 576px;
+        height: 500px;
+    }
+
+    .cartao h1 a{
+
+        font-size: 28px;
+        margin-left: 40px;
+        white-space: nowrap;
+    }
+
+    .cartao h3{
+
+        font-size: 26px;
+        margin-left: 40px;
+        white-space: nowrap;
+        
+    }
+
+    .link-2{
+
+        margin-left: 40px;
+    }
+
+    .img-cartao{
+
+        margin-top: 100px;
+        
+    
+        
+       
+    
+    }
+    .img-re{
+        max-width: 300px;
+        max-height: 300px;
+        margin-right: 40px;
+
+    }
+
+    .secao-3{
+
+        width: 576px;
+        height: 800px;
+
+    }
+    .secao-3 h1 {
+
+        font-size: 28px;
+        margin-left: -49px;
+    }
+
+    .secao-3 h3{
+
+        font-size: 26px;
+        margin-left: -49px;
+    }
+
+    .link-3{
+
+        margin-left: -49px;
+    }
+
+    .img-cartao-2{
+
+        margin-top: 50px;
+        margin-right: 250px;
+    }
+
+    .secao-4{
+
+        width: 576px;
+        margin-top: -400px;
+        height: 800px;
+    }
+
+    .secao-4 h1{
+
+        font-size: 28px;
+        margin-left: -100px;
+        
+    }
+
+    .secao-4 h3{
+
+        font-size: 26px;
+        margin-left: -100px;
+    }
+    .link-4{
+
+        margin-left: -100px;
+    }
+
+    .img-cartao-3{
+
+        margin-top: 100px;
+        margin-right: 350px;
+    }
+    .secao-6 h1{
+
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 30px;
+        
+
+    }
+
+    .secao-6 a{
+
+        margin-left: 30px;
+    }
+
+    .secao-7 h1{
+
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 30px;
+        
+    }
+    .secao-7 a{
+
+        margin-left: 30px;
+    }
+
+    .secao-8 h1{
+
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 30px;
+        
+    }
+
+    .secao-8 a{
+
+        margin-left: 30px;
+    }
+    /*Footer (Rodapé) configurações gerais*/
+    .rodape{
+
+
+        height: 1100px;
+    }
+    .sec-1{
+
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .sec-2{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+
+    }
+    .sec-3{
+        
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    
+
+    }
+
+    .sec-4{
+        margin-top: 30px;
+        width: 100%;
+        margin-right: -40px;
+        margin-bottom: 40px;
+
+    }
+    
+    .icon{
+
+        margin: auto;
+        margin-right: 290px;
+        
+    }
+
+    .nu-rodape p{
+        
+        margin-top: 30px;
+      margin-right: 20px;
+
+    }
+
+    /*Icones sociais*/
+    .fa-brands{
+
+        width: 100%;
+        float: left;
+        margin-top: -30px;
+        padding: 16px;
+        
+      
+        
+        
+    }
+
+    .xt{
+        margin-top: 50px;
+        display: inline-block;
+
+    }
+
+    .idioma{
+
+        text-align: left;
+        padding: 10px;
+    }
+    
+}
+
+/*Configuração Mobile 768px*/
+
+@media screen and (max-width: 768px) {
+
+    .menu-nubank{
+
+        background-color: black;
+    }
+
+    .menu-nubank{
+
+        display: none;
+      
+        
+    }
+    .menu-mobile{
+
+        margin-top: 16px;
+        cursor: pointer;
+
+    }
+
+    .menu-mobile div:hover{
+
+        background-color:rgb(65, 45, 45);
+    }
+    .menu-mobile div{
+        width: 22px;
+        height: 2px;
+        background-color: black;
+        margin: 8px;
+        margin-left: 380px;
+        
+        
+        
+       
+    }
+    .login{
+
+        display: none;
+    }
+
+    .imagem-1{
+
+        height: 1000px;
+        width: 100%;
+       
+    }
+    .imagem-1 h1{
+
+        margin-left: 70px;
+        font-size: 36px;
+        white-space: nowrap;
+    
+       
+    }
+    .imagem-1 h2{
+
+        margin-left: 70px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    
+    .form{
+        
+        margin-top: 100px;
+        margin-right: 100px;
+        
+    }
+
+    .secao-2{
+
+        width: 576px;
+        height: 500px;
+    }
+
+    .cartao h1 a{
+
+        font-size: 28px;
+        margin-left: 40px;
+        white-space: nowrap;
+    }
+
+    .cartao h3{
+
+        font-size: 26px;
+        margin-left: 40px;
+        white-space: nowrap;
+        
+    }
+
+    .link-2{
+
+        margin-left: 40px;
+    }
+
+    .img-cartao{
+
+        margin-top: 100px;
+        
+    
+        
+       
+    
+    }
+    .img-re{
+        max-width: 300px;
+        max-height: 300px;
+        margin-right: 40px;
+
+    }
+
+    .secao-3{
+
+        width: 576px;
+        height: 800px;
+
+    }
+    .secao-3 h1 {
+
+        font-size: 28px;
+        margin-left: -49px;
+    }
+
+    .secao-3 h3{
+
+        font-size: 26px;
+        margin-left: -49px;
+    }
+
+    .link-3{
+
+        margin-left: -49px;
+    }
+
+    .img-cartao-2{
+
+        margin-top: 50px;
+        margin-right: 250px;
+    }
+
+    .secao-4{
+
+        width: 576px;
+        margin-top: -400px;
+        height: 800px;
+    }
+
+    .secao-4 h1{
+
+        font-size: 28px;
+        margin-left: -100px;
+        
+    }
+
+    .secao-4 h3{
+
+        font-size: 26px;
+        margin-left: -100px;
+    }
+    .link-4{
+
+        margin-left: -100px;
+    }
+
+    .img-cartao-3{
+
+        margin-top: 100px;
+        margin-right: 350px;
+    }
+    .secao-6 h1{
+
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 30px;
+        
+
+    }
+
+    .secao-6 a{
+
+        margin-left: 30px;
+    }
+
+    .secao-7 h1{
+
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 30px;
+        
+    }
+    .secao-7 a{
+
+        margin-left: 30px;
+    }
+
+    .secao-8 h1{
+
+        font-size: 25px;
+        white-space: nowrap;
+        margin-left: 30px;
+        
+    }
+
+    .secao-8 a{
+
+        margin-left: 30px;
+    }
+    
+    .rodape{
+
+
+        height: 1100px;
+    }
+    .sec-1{
+
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .sec-2{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+
+    }
+    .sec-3{
+        
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    
+
+    }
+
+    .sec-4{
+        margin-top: 30px;
+        width: 100%;
+        margin-right: -40px;
+        margin-bottom: 40px;
+
+    }
+    
+    .icon{
+
+        margin: auto;
+        margin-right: 290px;
+        
+    }
+
+    .nu-rodape p{
+        
+        margin-top: 30px;
+      margin-right: 20px;
+
+    }
+
+    .fa-brands{
+
+        width: 100%;
+        float: left;
+        margin-top: -30px;
+        padding: 16px;
+        
+      
+        
+        
+    }
+
+    .xt{
+        margin-top: 50px;
+        display: inline-block;
+
+    }
+
+    .idioma{
+
+        text-align: left;
+        padding: 10px;
+    }
+
+}
+

@@ -1,0 +1,4 @@
+Projeto desenvolvido por Tawan Lúcio.
+Evite copiar e Colar, Projeto pode ser analisado para melhores compreensão de estudos.
+
+Tecnologias utilizada para Desenvolvimento HTML e CSS.
